@@ -30,12 +30,20 @@ Project is created with:
 
 step 1 : Read the data sheet  of  ESP32-WROOM-32 from [here](https://espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
 
-step 2: Click on file then prefrence.
+step 2: Open the Arduino IDE and connect the ESP32 with your computer 
 
-step 3: Paste this link https://dl.espressif.com/dl/package_esp32_index.json to upload the board packge.
+step 3:  we need to upload the board packge ,from file  bar choose prefrence.
 
-step 4: and now we will Install the board. so click on tools>Arduino board> board manger then write "esp32" to install it
+step 4: then copy and paste this link 'https://dl.espressif.com/dl/package_esp32_index.json'
+![3](https://user-images.githubusercontent.com/64277741/180612981-f50d4711-aeed-46a4-b8d0-1767b16e5494.PNG)
 
-step 5: Now click on tools>Arduino board>ESP32 Arduino and choose WEMOS D1 MINI ESP32.
+step 5: after that from tools>Arduino board> board manger and search on esp32 to install the board
 
-Step 6: Now we should select our port, COM3.
+step 6: Now click on tools>board > ESP32 Arduino and choose WEMOS D1 MINI ESP32.
+
+Step 7: open file>exampl > 01.Basics > blink > then run the code .
+
+step 8: after finished compuling we should select tools> our port, COM3
+
+step 9: uploud the code to ESP32 then the LED will Blink ! 
+
