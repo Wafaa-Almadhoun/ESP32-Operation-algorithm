@@ -1,4 +1,4 @@
-# Wisdom-ESP32-Operation-algorithm
+# ESP32-WROOM-32-module-operation-algorithm
 
 ## Table of contents
 * [Introduction](#Introduction)
@@ -8,22 +8,26 @@
 
 
 ## Introduction
-  ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+       ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.the modules is 
+   a family of ESP32-based modules with some integrated key components, including a crystal oscillator and an antenna matching circuit. 
+   The modules constitute ready-made solutions for integration into final products. If combined with a few extra components, 
+   such as a programming interface, bootstrapping resistors, and pin headers, these modules can also be used for evaluation of ESP32’s functionality,
+   in our case we use WROOM module this is a basic and commonly adopted ESP32 module with the ESP32-D0WDQ6 chip on board. It was the first module of 
+   the WROOM / WROVER family released to the market
 
 ## Technologies
 Project is created with:
 * Arduino IDE 1.18.15 [To Downloud](https://www.arduino.cc/en/software)
 	
 ## Components required
-1. ESP32-WROOM-32-wasdom-module
-2. 5 servo motors MG995
-3. jumper wirs
-4. 5 potentiometer 10 K ohm 
-5. bettrey  5 volt
-6.breadboard
+1. ESP32-WROOM-32-module
+2. Micro-USB Cable
+3. computer with internet access
 
 
-step 1: First of all you should download " Arduino IDE software " from Arduino official website: https://www.arduino.cc/en/software
+## Algorithm
+
+step 1 : Read the data sheet  of  ESP32-WROOM-32 from [here](https://espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
 
 step 2: Click on file then prefrence.
 
