@@ -45,5 +45,5 @@ Step 7: open file>exampl > 01.Basics > blink > then run the code .
 
 step 8: after finished compuling we should select tools> our port, COM3
 
-step 9: uploud the code to ESP32 then the LED will Blink ! 
+step 9: uploud the code to ESP32 then the LED in ESP32 will Blink ! 
 
